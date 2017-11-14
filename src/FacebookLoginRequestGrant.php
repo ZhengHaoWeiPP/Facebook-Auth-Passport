@@ -1,6 +1,6 @@
 <?php
 
-namespace HaoWei\FacebookAuthPassport;
+namespace haowei\FacebookAuthPassport;
 
 use RuntimeException;
 use Illuminate\Http\Request;
