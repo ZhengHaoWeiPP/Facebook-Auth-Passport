@@ -1,5 +1,5 @@
 {
-    "name": "ZhengHaoWeiPP/laravel-passport-facebook-login",
+    "name": "haowei/laravel-passport-facebook-login",
     "description": "Facebook Token Request Grant for Laravel Passport - Modify from danjdewhurst/laravel-passport-facebook-login",
     "license": "MIT",
     "keywords": ["laravel", "lumen", "passport", "oauth", "grant"],
@@ -19,7 +19,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "ZhengHaoWeiPP\\PassportFacebookLogin\\": "src"
+            "haowei\\PassportFacebookLogin\\": "src"
         }
     },
     "require": {
@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ZhengHaoWeiPP\\PassportFacebookLogin\\FacebookLoginGrantProvider"
+                "haowei\\PassportFacebookLogin\\FacebookLoginGrantProvider"
             ]
         }
     }
