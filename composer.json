@@ -3,12 +3,6 @@
     "description": "Facebook Auth Request Grant for Laravel Passport - Modify from danjdewhurst/laravel-passport-facebook-login",
     "license": "MIT",
     "keywords": ["laravel", "lumen", "passport", "oauth", "grant"],
-    "tag_name": "v1.0.0",
-    "target_commitish": "master",
-    "name": "v1.0.0",
-    "body": "Facebook Auth Request Grant for Laravel Passport ",
-    "draft": false,
-    "prerelease": false,
     "authors": [
         {
             "name": "Jacob Morris",
