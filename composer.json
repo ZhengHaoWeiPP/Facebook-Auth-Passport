@@ -19,7 +19,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Haowei\\PassportFacebookLogin\\": "src"
+            "Haowei\\FacebookAuthPassport\\": "src"
         }
     },
     "require": {
@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "haowei\\PassportFacebookLogin\\FacebookLoginGrantProvider"
+                "haowei\\FacebookAuthPassport\\FacebookLoginGrantProvider"
             ]
         }
     }
