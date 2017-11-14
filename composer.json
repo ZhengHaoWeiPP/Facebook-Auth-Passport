@@ -2,7 +2,6 @@
     "name": "haowei/laravel-passport-facebook-auth",
     "description": "Facebook Auth Request Grant for Laravel Passport - Modify from danjdewhurst/laravel-passport-facebook-login",
     "license": "MIT",
-    "minimum-stability":"v1.0.0",
     "keywords": ["laravel", "lumen", "passport", "oauth", "grant"],
     "authors": [
         {
