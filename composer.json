@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "haowei\\FacebookAuthPassport\\FacebookLoginGrantProvider"
+                "Haowei\\FacebookAuthPassport\\FacebookLoginGrantProvider"
             ]
         }
     }
