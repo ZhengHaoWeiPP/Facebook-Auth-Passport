@@ -8,7 +8,7 @@
     "name": "v1.0.0",
     "body": "Facebook Auth Request Grant for Laravel Passport ",
     "draft": false,
-    "prerelease": false
+    "prerelease": false,
     "authors": [
         {
             "name": "Jacob Morris",
