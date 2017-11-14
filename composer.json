@@ -1,5 +1,5 @@
 {
-    "name": "haowei/laravel-passport-facebook-login",
+    "name": "haowei/laravel-passport-facebook-auth",
     "description": "Facebook Auth Request Grant for Laravel Passport - Modify from danjdewhurst/laravel-passport-facebook-login",
     "license": "MIT",
     "keywords": ["laravel", "lumen", "passport", "oauth", "grant"],
