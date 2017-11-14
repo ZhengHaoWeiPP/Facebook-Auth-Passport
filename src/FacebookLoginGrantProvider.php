@@ -1,6 +1,6 @@
 <?php
 
-namespace haowei\FacebookAuthPassport;
+namespace Haowei\FacebookAuthPassport;
 
 use Laravel\Passport\Bridge\RefreshTokenRepository;
 use Laravel\Passport\Bridge\UserRepository;
