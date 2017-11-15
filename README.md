@@ -2,7 +2,7 @@
 
 ## Install
 
-Install with composer...  `composer require haowei/laravel-passport-facebook-auth`
+Install with composer...  `composer require panelplace/laravel-facebook-auth-passport`
 
 ### Versions
 
