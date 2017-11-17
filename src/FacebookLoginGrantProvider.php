@@ -23,6 +23,11 @@ class FacebookLoginGrantProvider extends PassportServiceProvider
      */
     public function boot()
     {
+        
+        Passport::tokensExpireIn(Carbon::now()->addDays(env('TOKEN_EXPIRY_IN')));
+
+        Passport::refreshTokensExpireIn(Carbon::now()->addDays(env('REFRESH_TOKEN_EXPIRY_IN')));
+        
         if (file_exists(__DIR__ . '/../../../../storage/oauth-private.key')) {
             app(AuthorizationServer::class)->enableGrantType($this->makeRequestGrant(), Passport::tokensExpireIn());
         }
