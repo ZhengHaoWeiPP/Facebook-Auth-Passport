@@ -9,7 +9,7 @@ Install with composer...  `composer require panelplace/laravel-facebook-auth-pas
 * Laravel 5.4 and Passport 2.0 only supported at this time
 
 ### SETUP
-To set the Expiry Token and Refresh Token Expiry add this 2 Line code into your Laravel .env file
+To set the Expiry Token and Refresh Token Expiry add this 2 Line code into your Laravel `.env` file
 ```php
 
     TOKEN_EXPIRY_IN = 7
