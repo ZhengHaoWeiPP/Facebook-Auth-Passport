@@ -21,7 +21,7 @@ To set the Expiry Token and Refresh Token Expiry add this 2 Line code into your 
     REFRESH_TOKEN_EXPIRY_IN = 30
 ```
 
-*which mean the token will expiry in 15 days and refresh token expiry will be in 30 days
+*which mean the token will expired in 15 days and refresh token will expired in 30 days
 
 ## Dependencies:
 * `"laravel/passport": "^4.0"`
