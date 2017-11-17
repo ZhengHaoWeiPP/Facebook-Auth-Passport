@@ -12,10 +12,16 @@ Install with composer...  `composer require panelplace/laravel-facebook-auth-pas
 To set the Expiry Token and Refresh Token Expiry add this 2 Line code into your Laravel `.env` file
 ```php
 
-    TOKEN_EXPIRY_IN = 7
-    REFRESH_TOKEN_EXPIRY_IN = 8
-
+    TOKEN_EXPIRY_IN = {{ Total day you want to set }}
+    REFRESH_TOKEN_EXPIRY_IN = {{ Total day you want to set }}
 ```
+## EXAMPLE
+```php
+    TOKEN_EXPIRY_IN = 15
+    REFRESH_TOKEN_EXPIRY_IN = 30
+```
+which mean the token will expiry in 15 days and refresh token expiry will be in 30 days
+==========================================================
 
 ## Dependencies:
 * `"laravel/passport": "^4.0"`
